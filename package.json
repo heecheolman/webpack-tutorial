@@ -1,0 +1,28 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "webpack-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heecheolman/webpack-tutorial.git"
+  },
+  "author": "heecheolman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heecheolman/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/heecheolman/webpack-tutorial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
